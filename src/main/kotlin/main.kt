@@ -2,7 +2,7 @@ fun main() {
     println("Odd or Even Calculator")
     println("Please enter a number: ")
 
-    val userNumber = readLine() ?: "0" //?: sets value to string 0 if null
+    val userNumber = readLine() ?: "0" // ?: sets value to string 0 if null
     val parsedNumber = try { // try to convert userNumber to Int to prevent crash
         userNumber.toInt()
     } catch (e: Exception) {
