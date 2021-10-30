@@ -9,7 +9,8 @@ fun main() {
         0
     }
 
-    oddOrEven(parsedNumber)
+    oddOrEven(parsedNumber) // call oddOrEven function and pass parsedNumber
+
     if (oddOrEven(parsedNumber)) {
         println("The number $parsedNumber is even.")
     } else {
